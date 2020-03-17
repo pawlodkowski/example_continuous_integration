@@ -1,0 +1,4 @@
+numpy
+sckit-learn
+pandas
+pytest
