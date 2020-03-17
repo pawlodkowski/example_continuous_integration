@@ -12,6 +12,7 @@ def train_model(X, y):
 
     model = RandomForestClassifier(n_estimators=100)
     model.fit(X, y)
+    print(f'Accuracy: {model.score(X, y)}')
     return model
 
 if __name__ == '__main__':
